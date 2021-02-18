@@ -12,6 +12,15 @@ table {
     background-color: #000000;
 }
 
+img.img_abaixo {
+    width: 50px;
+    height: 50px;
+}
+
+img.img_abaixo1 {
+    height: 50px;
+}
+
 #id_topo {
     padding: 20px;
 }
