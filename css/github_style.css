@@ -11,3 +11,47 @@ body {
 table {
     background-color: #000000;
 }
+
+#id_topo {
+    padding: 20px;
+}
+
+#id_conteudo {
+    padding: 20px;
+    border: oldlace 1px dotted;
+    border-radius: 5px;
+}
+
+#id_rodape {
+    padding: 20px;
+}
+
+a.a_menu:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.a_menu:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+a.a_menu:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+a.a_rodape1:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.a_rodape1:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+a.a_rodape1:visited {
+    color: grey;
+    text-decoration: none;
+}
