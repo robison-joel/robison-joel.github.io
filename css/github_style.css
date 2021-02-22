@@ -62,34 +62,40 @@ a.a_rodape1:link {
     color: #FFFFFF;
     text-decoration: none;
     background-color: #000000;
+    font-size: 30px;
 }
 
 a.a_rodape1:hover {
-    color: #FFFFFF;
+    color: grey;
     text-decoration: none;
     background-color: #000000;
+    font-size: 30px;
 }
 
 a.a_rodape1:visited {
     color: #FFFFFF;
     text-decoration: none;
     background-color: #000000;
+    font-size: 30px;
 }
 
 a.a_rodape2:link {
     color: #FFFFFF;
     text-decoration: none;
     background-color: #000000;
+    font-style: italic;
 }
 
 a.a_rodape2:hover {
     color: #FFFFFF;
     text-decoration: none;
     background-color: #000000;
+    font-style: italic;
 }
 
 a.a_rodape2:visited {
     color: #FFFFFF;
     text-decoration: none;
     background-color: #000000;
+    font-style: italic;
 }
