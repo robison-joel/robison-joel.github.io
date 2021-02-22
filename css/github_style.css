@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+body {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+table {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+img.img_abaixo {
+    width: 50px;
+    height: 50px;
+}
+
+img.img_abaixo1 {
+    height: 50px;
+}
+
+#id_topo {
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#id_conteudo {
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#id_rodape {
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+a.a_menu:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.a_menu:hover {
+    color: grey;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_menu:visited {
+    color: grey;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_rodape1:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_rodape1:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_rodape1:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_rodape2:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_rodape2:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_rodape2:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+}
