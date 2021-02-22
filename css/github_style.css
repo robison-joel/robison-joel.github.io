@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
     background-color: black;
+    color: #FFFFFF;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
 
 table {
     background-color: #000000;
+    color: #FFFFFF;
 }
 
 img.img_abaixo {
@@ -23,16 +25,20 @@ img.img_abaixo1 {
 
 #id_topo {
     padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 #id_conteudo {
     padding: 20px;
-    border: oldlace 1px dotted;
-    border-radius: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 #id_rodape {
     padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 a.a_menu:link {
@@ -43,24 +49,47 @@ a.a_menu:link {
 a.a_menu:hover {
     color: grey;
     text-decoration: none;
+    background-color: #000000;
 }
 
 a.a_menu:visited {
     color: grey;
     text-decoration: none;
+    background-color: #000000;
 }
 
 a.a_rodape1:link {
     color: #FFFFFF;
     text-decoration: none;
+    background-color: #000000;
 }
 
 a.a_rodape1:hover {
-    color: grey;
+    color: #FFFFFF;
     text-decoration: none;
+    background-color: #000000;
 }
 
 a.a_rodape1:visited {
-    color: grey;
+    color: #FFFFFF;
     text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_rodape2:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_rodape2:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_rodape2:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
 }
