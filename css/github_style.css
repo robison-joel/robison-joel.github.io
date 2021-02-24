@@ -24,7 +24,6 @@ img.img_abaixo1 {
 }
 
 #id_topo {
-    padding: 20px;
     background-color: #000000;
     color: #FFFFFF;
 }
@@ -44,15 +43,35 @@ img.img_abaixo1 {
 a.a_menu:link {
     color: #FFFFFF;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a.a_menu:hover {
     color: grey;
     text-decoration: none;
     background-color: #000000;
+    font-weight: bold;
 }
 
 a.a_menu:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+    font-weight: bold;
+}
+
+a.a_submenu:link {
+    color: grey;
+    text-decoration: none;
+}
+
+a.a_submenu:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+a.a_submenu:visited {
     color: grey;
     text-decoration: none;
     background-color: #000000;
