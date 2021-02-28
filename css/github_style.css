@@ -14,14 +14,8 @@ table {
     color: #FFFFFF;
 }
 
-img.img_abaixo {
-    width: 50px;
-    height: 50px;
-}
 
-img.img_abaixo1 {
-    height: 50px;
-}
+/* DIV'S */
 
 #id_topo {
     background-color: #000000;
@@ -29,7 +23,8 @@ img.img_abaixo1 {
 }
 
 #id_conteudo {
-    padding: 20px;
+    width: 100%;
+    padding: 5px;
     background-color: #000000;
     color: #FFFFFF;
 }
@@ -40,59 +35,26 @@ img.img_abaixo1 {
     color: #FFFFFF;
 }
 
-a.a_menu:link {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: bold;
-}
 
-a.a_menu:hover {
-    color: grey;
-    text-decoration: none;
-    background-color: #000000;
-    font-weight: bold;
-}
-
-a.a_menu:visited {
-    color: #FFFFFF;
-    text-decoration: none;
-    background-color: #000000;
-    font-weight: bold;
-}
-
-a.a_submenu:link {
-    color: grey;
-    text-decoration: none;
-}
-
-a.a_submenu:hover {
-    color: #FFFFFF;
-    text-decoration: none;
-    background-color: #000000;
-}
-
-a.a_submenu:visited {
-    color: grey;
-    text-decoration: none;
-    background-color: #000000;
-}
+/* LINK'S */
 
 a.a_rodape1:link {
-    color: #FFFFFF;
+    color: grey;
     text-decoration: none;
     background-color: #000000;
     font-size: 30px;
 }
 
 a.a_rodape1:hover {
-    color: grey;
+    color: white;
     text-decoration: none;
     background-color: #000000;
     font-size: 30px;
+    font-style: italic;
 }
 
 a.a_rodape1:visited {
-    color: #FFFFFF;
+    color: grey;
     text-decoration: none;
     background-color: #000000;
     font-size: 30px;
@@ -106,10 +68,9 @@ a.a_rodape2:link {
 }
 
 a.a_rodape2:hover {
-    color: #FFFFFF;
+    color: grey;
     text-decoration: none;
     background-color: #000000;
-    font-style: italic;
 }
 
 a.a_rodape2:visited {
@@ -117,4 +78,31 @@ a.a_rodape2:visited {
     text-decoration: none;
     background-color: #000000;
     font-style: italic;
+}
+
+
+/* TABLE'S */
+
+table.table_unidade {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+
+/* TH'S */
+
+th.th_unidade {
+    padding: 10px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: #000000 2px dashed;
+}
+
+
+/* TD'S */
+
+td.td_unidade {
+    padding: 10px;
 }
