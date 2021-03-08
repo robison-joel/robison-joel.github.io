@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #FFFFFF;
+    background-color: #000000;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}

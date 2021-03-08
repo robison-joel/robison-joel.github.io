@@ -9,6 +9,22 @@ body {
     background-color: #000000;
 }
 
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 table {
     background-color: #000000;
     color: #FFFFFF;
@@ -33,6 +49,59 @@ table {
     padding: 20px;
     background-color: #000000;
     color: #FFFFFF;
+}
+
+#id_corpo {
+    width: 100%;
+}
+
+#id_folha {
+    background-color: floralwhite;
+    width: 95%;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 200px;
+    position: relative;
+}
+
+#id_nome {
+    background-color: darkkhaki;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    font-size: 50px;
+    z-index: 100;
+    position: absolute;
+    margin-top: 40px;
+    box-shadow: 0px 10px 5px grey;
+}
+
+#IdFlutua {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 100px;
+    z-index: 100;
+}
+
+#IdTopo {
+    height: 100px;
+    width: 100%;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+#IdCorpo {
+    height: 1000px;
+    width: 100%;
+    background-color: orangered;
 }
 
 
@@ -78,6 +147,20 @@ a.a_rodape2:visited {
     text-decoration: none;
     background-color: #000000;
     font-style: italic;
+}
+
+a.a_download {
+    font-size: 20px;
+    color: #000000;
+    backface-visibility: visible;
+    text-decoration: none;
+}
+
+a.a_download:hover {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 
