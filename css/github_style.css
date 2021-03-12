@@ -91,13 +91,6 @@ table {
     z-index: 100;
 }
 
-#IdTopo {
-    height: 100px;
-    width: 100%;
-    background-color: lightgreen;
-    cursor: pointer;
-}
-
 #IdCorpo {
     height: 1000px;
     width: 100%;
