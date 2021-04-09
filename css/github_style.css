@@ -1,36 +1,3 @@
-html {
-    scroll-behavior: smooth;
-    background-color: black;
-    color: #FFFFFF;
-}
-
-body {
-    color: #FFFFFF;
-    background-color: #000000;
-}
-
-ul,
-ol,
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-
-table {
-    background-color: #000000;
-    color: #FFFFFF;
-}
-
-
 /* DIV'S */
 
 #id_topo {
@@ -158,6 +125,11 @@ a.a_download:hover {
 
 
 /* TABLE'S */
+
+table {
+    background-color: #000000;
+    color: #FFFFFF;
+}
 
 table.table_unidade {
     margin-bottom: 20px;
