@@ -1,10 +1,43 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Russo+One&family=Swanky+and+Moo+Moo&display=swap');
+
+/*     font-family: 'Kalam', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Swanky and Moo Moo', cursive;
+*/
+
+@font-face {
+    font-family: 'roots';
+    src: url('../fonts/roots/Roots.ttf') format('truetype');
+}
+
+
+/* Viewport */
+
+@viewport {
+    zoom: 1.0;
+    width: device-width;
+}
+
+
+/* Classes Superiores */
+
+:root {
+    --verde1: #1D3823;
+    --verde2: #315E3C;
+    --verde3: #3F794D;
+    --verde4: #4A8F5A;
+    --verde5: #66C47C;
+}
+
 html {
     scroll-behavior: smooth;
+    background-color: var(--verde1);
 }
 
 body {
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: var(--verde1);
     background-attachment: fixed;
     background-size: 100%;
     font-family: "Open Sans", sans-serif;
@@ -14,10 +47,16 @@ ul,
 ol,
 li {
     list-style: none;
+    text-align: left;
+}
+
+p {
+    text-align: left;
 }
 
 a {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 * {

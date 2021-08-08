@@ -1,0 +1,144 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Russo+One&family=Swanky+and+Moo+Moo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@font-face {
+    font-family: 'roots';
+    src: url('../fonts/roots/Roots.ttf') format('truetype');
+}
+
+
+/* Viewport */
+
+@viewport {
+    zoom: 1.0;
+    width: device-width;
+}
+
+
+/* Classes Superiores */
+
+:root {
+    --verde1: #1D3823;
+    --verde2: #315E3C;
+    --verde3: #3F794D;
+    --verde4: #4A8F5A;
+    --verde5: #66C47C;
+    --fonte-russo: 'Russo One', sans-serif;
+    --fonte-ubuntu: 'Ubuntu', sans-serif;
+    --font-kalam: 'Kalam', cursive;
+    --font-moo: 'Swanky and Moo Moo', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: var(--verde1);
+}
+
+body {
+    color: #FFFFFF;
+    background-color: var(--verde1);
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#idflutua {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 100px;
+    z-index: 100;
+}
+
+#id_oferecimento {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+#idcorpo {
+    border: dotted 2px #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 1200px;
+    width: 100%;
+}
+
+#div_verde {
+    width: 100%;
+    height: 100%;
+    background-color: var(--verde4);
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: 2;
+}
+
+#div_cinza {
+    width: 100%;
+    background-color: #4A4A4A;
+    height: auto;
+    padding: 5px;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+#div_espaco {
+    opacity: 100%;
+    height: 70px;
+}
+
+#id_titulo {
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    width: 100%;
+    min-height: 70px;
+    height: auto;
+    background-color: var(--verde2);
+}
+
+#id_conteudo {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
