@@ -107,7 +107,7 @@
 
                         <a class="dropdown-item" href="https://www.linkedin.com/in/robisonjoel/" target="_blank">Linkedin</a>
 
-                        <a class="dropdown-item" href="https://facebook.com/rjgsinfo/" target="_blank">Facebook</a>
+                        <a class="dropdown-item" href="https://facebook.com/rjgstrue/" target="_blank">Facebook</a>
 
                     </div>
 
@@ -177,6 +177,23 @@
 
     <!-- FIM DO MENU -->
 
+    <!-- DATA E HORA -->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xl-3 col-sm-12" id="sauda"></div>
+
+            <div class="col" id="hoje"></div>
+
+            <div class="col-xl-3 col-sm-12" id="rel"></div>
+        </div>
+
+    </div>
+
+    <!-- DATA E HORA -->
+
 
 
     <!-- CARROUSSEL -->
@@ -243,7 +260,9 @@
 
         <tr>
 
-            <td align="center"><img src="https://imagensbrasil.org/images/2020/12/23/tele_transp.png" alt="Banner" class="img-fluid"></td>
+            <td align="center">
+                <a href="https://api.whatsapp.com/send?phone=5551995055383&text=Ola!%Estou%entrando%em%contato%através%do%site." target="_blank"><img src="https://imagensbrasil.org/images/2020/12/23/tele_transp.png" alt="Banner" class="img-fluid"></a>
+            </td>
 
         </tr>
 
@@ -428,7 +447,9 @@
 
         <tr>
 
-            <td align="center"><img src="https://imagensbrasil.org/images/2020/12/23/tele_transp.png" alt="Banner" class="img-fluid"></td>
+            <td align="center">
+                <a href="https://api.whatsapp.com/send?phone=5551995055383&text=Ola!%Estou%entrando%em%contato%através%do%site." target="_blank"><img src="https://imagensbrasil.org/images/2020/12/23/tele_transp.png" alt="Banner" class="img-fluid"></a>
+            </td>
 
         </tr>
 
@@ -578,7 +599,9 @@
 
         <!-- IMAGEM -->
 
-        <div class="container col-sm-12 col-xl-10"><img src="https://imagensbrasil.org/images/2020/12/23/tele_transp.png" class="img-fluid"></div>
+        <div class="container col-sm-12 col-xl-10">
+            <a href="https://api.whatsapp.com/send?phone=5551995055383&text=Ola!%Estou%entrando%em%contato%através%do%site." target="_blank"><img src="https://imagensbrasil.org/images/2020/12/23/tele_transp.png" class="img-fluid"></a>
+        </div>
 
         <!-- IMAGEM -->
 
@@ -674,6 +697,129 @@
 
 
         <!-- Optional JavaScript -->
+
+        <script>
+            function relogio() {
+
+                // declaração de variáveis
+                var data = new Date(); // Capta os dados do SERVIDOR
+
+                var dia_semana = data.getDay(); // Obtém o DIA DA SEMANA do SERVIDOR.
+
+                var hor = data.getHours(); // Obtém a HORA do SERVIDOR.
+
+                var min = data.getMinutes(); // Obtém os MINUTOS do SERVIDOR.
+
+                var seg = data.getSeconds(); // Obtém os SEGUNDOS do SERVIDOR.
+
+                var dia_data = data.getDate(); // Obtém o DIA DO MES do SERVIDOR.
+
+                var mes_data = data.getMonth(); // Obtém o MES atual do SERVIDOR.
+
+                var ano_data = data.getFullYear(); // Obtém o ANO atual do SERVIDOR.
+
+                // Tratamento das horas
+                if (hor < 10) {
+                    hor = "0" + hor;
+                }
+
+                // Tratamento dos minutos
+                if (min < 10) {
+                    min = "0" + min;
+                }
+
+                // Tratamento dos segundos
+                if (seg < 10) {
+                    seg = "0" + seg;
+                }
+
+                // Tratamento dos DIAS retornados pelo SERVIDOR
+                if (dia_data < 10) {
+                    dia_data = "0" + dia_data;
+                }
+
+                // Tratamento dos MESES retornados pelo SERVIDOR
+                if (mes_data == 0) {
+                    mes_data = "Janeiro";
+                } else if (mes_data == 1) {
+                    mes_data = "Fevereiro";
+                } else if (mes_data == 2) {
+                    mes_data = "Março";
+                } else if (mes_data == 3) {
+                    mes_data = "Abril";
+                } else if (mes_data == 4) {
+                    mes_data = "Maio";
+                } else if (mes_data == 5) {
+                    mes_data = "Junho";
+                } else if (mes_data == 6) {
+                    mes_data = "Julho";
+                } else if (mes_data == 7) {
+                    mes_data = "Agosto";
+                } else if (mes_data == 8) {
+                    mes_data = "Setembro";
+                } else if (mes_data == 9) {
+                    mes_data = "Outubro";
+                } else if (mes_data == 10) {
+                    mes_data = "Novembro";
+                } else if (mes_data == 11) {
+                    mes_data = "Dezembro";
+                }
+
+                // tratamento para retornar o dia da semana em string
+                switch (dia_semana) {
+                    case 0:
+                        diasemana = "Domingo";
+                        break;
+                    case 1:
+                        diasemana = "Segunda-feira";
+                        break;
+                    case 2:
+                        diasemana = "Terça-feira";
+                        break;
+                    case 3:
+                        diasemana = "Quarta-feira";
+                        break;
+                    case 4:
+                        diasemana = "Quinta-feira";
+                        break;
+                    case 5:
+                        diasemana = "Sexta-feira";
+                        break;
+                    case 6:
+                        diasemana = "Sábado";
+                        break;
+                    default:
+                        diasemana = "just now";
+                }
+
+                // Tratamento da saudação.
+                if (hor >= 6 && hor < 12) {
+                    saudacao = "Muito bom dia!";
+
+                } else if (hor >= 12 && hor <= 17) {
+                    saudacao = "Tenha uma boa tarde!";
+
+                } else if (hor >= 18 && hor <= 23) {
+                    saudacao = "Tenha uma boa noite!";
+
+                } else if (hor >= 0 && hor <= 5) {
+                    saudacao = "Boa madrugada a todos!";
+                }
+
+                var horas = hor + ":" + min + ":" + seg; // Declara o conteúdo da variável que vai retornar o relógio no html.
+
+                var datahoje = diasemana + ", " + dia_data + " de " + mes_data + " de " + ano_data; // Declara o conteúdo da variável que vai retornar a data no html.
+
+                document.getElementById("sauda").textContent = saudacao; // Envia o conteúdo da variante "horas" para o objeto html com id "rel".
+
+                document.getElementById("rel").textContent = horas; // Envia o conteúdo da variante "horas" para o objeto html com id "rel".
+
+                document.getElementById("hoje").textContent = datahoje; // Envia o conteúdo da variante "datahoje" para o objeto html com id "hoje".
+            }
+
+            var timer = setInterval(relogio, 1000); // Variável que se encarrega de manter tudo atualizado segundo a segundo.
+        </script>
+
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

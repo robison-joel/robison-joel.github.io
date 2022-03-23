@@ -40,7 +40,6 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     font-family: "Open Sans", sans-serif;
-    background-attachment: fixed;
     z-index: 0;
 }
 
@@ -171,12 +170,40 @@ h2 {
     height: 50px;
 }
 
+#rel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-family: var(--font-kalam);
+}
+
+#hoje {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-family: var(--font-kalam);
+}
+
+#sauda {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-family: var(--font-kalam);
+}
+
 .nome_ {
     background-color: var(--verde2);
     text-align: center;
     text-shadow: 1px 1px 1px #000000;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: var(--fonte-ubuntu);
 }
 
 .titulo_ {
