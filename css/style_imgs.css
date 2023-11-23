@@ -1,0 +1,23 @@
+img.menu_hamburguer {
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.logo{
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.logo1{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.outras_img{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}

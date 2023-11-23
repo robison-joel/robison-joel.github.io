@@ -90,6 +90,8 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 
@@ -110,7 +112,7 @@ section {
 }
 
 body {
-    line-height: 1;
+    line-height: 1.8;
 }
 
 ol,
